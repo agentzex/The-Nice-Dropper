@@ -9,4 +9,4 @@ In the background the app downloads a pre-compiled .dex file made by the attacke
 dx.bat --dex --output payload.dex  input.jar\
 On windows, the path to dx will be:  \<your-Android-path>\bin\build-tools\<some-version>\ )\
 The .dex file is then loaded into memory and the malicious code starts running\
-<img src="https://github.com/dor-alt/The-Nice-Dropper/raw/master/TheNiceDropper/2.JPG" />
+<img src="https://github.com/dor-alt/The-Nice-Dropper/raw/master/TheNiceDropper/2.png" />
