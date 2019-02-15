@@ -5,8 +5,8 @@ The user downloads a benign looking app, unknowing it's malicious activties\
 <img src="https://github.com/dor-alt/The-Nice-Dropper/raw/master/TheNiceDropper/1.png" />
 \
 Step TWO:\
-In the background the app downloads a pre-compiled .dex file made by the attacker (in order to do so, you need to create a seperate module using Android studio, then convert the compiled .jar to .dex using: 
-dx.bat --dex --output payload.dex  input.jar
+In the background the app downloads a pre-compiled .dex file made by the attacker (in order to do so, you need to create a seperate module using Android studio, then convert the compiled .jar to .dex using:\
+dx.bat --dex --output payload.dex  input.jar\
 On windows, the path to dx will be <your-Android-path>\bin\build-tools\<some-version>\ )\
-The .dex file is loaded into memory and the malicious code starts running\
+The .dex file is then loaded into memory and the malicious code starts running\
 <img src="https://github.com/dor-alt/The-Nice-Dropper/raw/master/TheNiceDropper/2.JPG" />
