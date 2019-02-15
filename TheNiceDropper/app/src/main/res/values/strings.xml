@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TheNiceDropper</string>
+    <string name="button_name">Press Me</string>
+
+    <string name="title_activity_pwned">pwned</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">Your\nDevice\nHave\nBeen\nPWNED</string>
+</resources>
